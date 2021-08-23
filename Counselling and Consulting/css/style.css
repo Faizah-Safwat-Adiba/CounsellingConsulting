@@ -1,0 +1,56 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-color: rgb(2, 0, 14);
+ }
+.carousel-inner img {
+    width: 100%;
+    height: 90vh%;
+  }
+
+
+
+  .button{
+    
+    background-image: linear-gradient(to bottom, #c8d86d 0%, #73e052 100% );
+    color: rgb(15, 6, 6);
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.catagories h1{
+    color: rgb(255, 255, 255);
+}
+.catagories img{
+    width: 100px;
+}
+
+.cat1{
+    background-image: linear-gradient(to bottom,lightsalmon 0%, rgb(245, 119, 97) 100% );
+    padding: 10px;
+}
+.cat2{
+    background-image: linear-gradient(to bottom,rgb(42, 156, 80) 0%, rgb(90, 219, 133) 100% );
+}
+.cat3{
+    background-image: linear-gradient(to bottom, #f196b2 0%, #be4362 100% );
+}
+.cat1,.cat2,.cat3{
+    
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+#Contact{
+    height: 300px;
+}
+#Contact h3{
+    color: rgb(227, 217, 228);
+}
+#Contact h6{
+    color: rgb(198, 186, 199);
+}
+footer{
+    text-align: center;
+}

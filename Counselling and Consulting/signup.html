@@ -1,0 +1,207 @@
+<! DOCTYPE html>
+<html>
+<head>
+   <title>C&C Sign Up</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="images/Logo2-1.png" alt="">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="F:\1 a class\Counselling and Consulting\home.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="F:\1 a class\Counselling and Consulting\about.html">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Sign Up</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Login
+        </a>
+          <div class="dropdown-menu">
+            <form class="px-4 py-3">
+              <div class="form-group">
+                <label for="exampleDropdownFormEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleDropdownFormPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">New around here? Sign up</a>
+            <a class="dropdown-item" href="#">Forgot password?</a>
+          </div>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Emergency Service</a>
+          <a class="dropdown-item" href="#">Long Term Service</a>
+          <a class="dropdown-item" href="#">Counselling Service</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Donate</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact">Contact Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner/healthcare1.jpg" alt="Free Health care Request" width="1100" height="600">
+        <div class="carousel-caption">
+          <h1 style="color:black;">Free Health care Request</h1>
+          <p style="color:black; font-size:20px;">Apply for Free Health Care</p>
+          <button class="button"> Request </button>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner/calendar.jpg" alt="Book Calender" width="1100" height="600">
+        <div class="carousel-caption">
+          <h1 style="color:black;">Book Calender</h1>
+          <p style="color:black; font-size:20px;">Live 1-To-1 Online Video and Phone Consultations with built-in booking calendar,<br> That is comprehensive, affordable, and culturally sensitive</p>
+          <button class="button"> Book now! </button>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner/Donate2.jpg" alt="Donate!" width="1100" height="600">
+        <div class="carousel-caption">
+          <h1 style="color:black;">Donate!</h1>
+          <p style="color:black; font-size:20px;">Help to support our mission to improve the health status of patients<br> by helping them get quality healthcare.</p>
+          <button class="button"> Donate </button>
+        </div>   
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+<p>,<br></p>
+
+  
+      
+  
+<section class="register py-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+              <div class="h1" style="color:lightsalmon;">Sign Up</div>
+              <h4 style="color:lightsteelblue;">Please fill in this from to create an account</h4>
+              <form action="insert.php" method="post">
+                  <div class="form-group">
+                      <label for="name" style="color:palegreen;">Your Full Name : </label>
+                      <input type="name" class="form-control" name="name" id="name" placeholder="Enter Full Name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="InputEmail1" style="color:palegreen;">Email address :</label>
+                      <input type="email" class="form-control" name="InputEmail1" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="InputPassword" style="color:palegreen;">Password :</label>
+                      <input type="password" class="form-control" name="InputPassword" placeholder="Password" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="cInputPassword" style="color:palegreen;">Confirm Password :</label>
+                      <input type="password" class="form-control" name="cInputPassword" placeholder="Password" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="sector" style="color:palegreen;">Sign Up As : </label>
+                      <select class="form-control" name="sector" required>
+                          <option selected hidden value="">Select</option>
+                          <option value="doc">Doctor</option>
+                          <option value="pati">Patient</option>
+                          <option value="donar">Donar</option>
+                      </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone_number" style="color:palegreen;">Phone Number : </label>
+                    <input type="phone_number" class="form-control" name="phone_number" id="phone_number" placeholder="Enter Phone Number" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="gender" style="color:palegreen;">Gender : </label>
+                  <select class="form-control" name="gender" id="gender"  required>
+                      <option selected hidden value="">Select</option>
+                      <option value="m">Male</option>
+                      <option value="f">Female</option>
+                      <option value="other">Other</option>
+                  </select>
+                </div>
+
+                  <p class="h6">By creating an account you agree our <a href="">terms and privacy</a></p>
+                  <a href=""><button type="submit" class="btn btn-primary">Register</button></a>
+                  <h6 class="mt-3">Already have an account?<a class="ml-2" href="">Sign up</a></h6> 
+              </form>
+          </div>
+          <div class="col-md-3"></div>
+      </div>
+  </div>
+  
+</section>
+
+  
+
+
+<div class=" d-flex justify-content-center align-items-center" id="Contact">
+    <div>
+      <h3>Stay Connected</h3>
+      <h6>Get  Newsletters</h6>
+      <input class="form-control" type="text">
+      <button class="button"> Submit</button>
+    </div>
+  </div>
+<footer>
+    <small>©️ 2020 Safwat. All rights reserved.</small>
+</footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+   background-color: rgb(244, 250, 218);
+}
+.carouselbackground{
+    background-color: #c1fcd5;
+    border: 10px;
+
+}
+.container
+{
+    margin-bottom: 100px;
+}
+h2{
+    color: #f03b80;
+}
+h5{
+    color: rgb(201, 47, 72);
+}
+h6{
+    color: #eb3078;
+}
+.carousel-item{
+
+    padding: 20px 40px;
+}
+
+
+.button{
+    
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100% );
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.catagories h1{
+    color: rgb(255, 255, 255);
+}
+.catagories img{
+    width: 100px;
+}
+
+.cat1{
+    background-image: linear-gradient(to bottom,lightsalmon 0%, rgb(245, 119, 97) 100% );
+    padding: 10px;
+}
+.cat2{
+    background-image: linear-gradient(to bottom,rgb(70, 126, 32) 0%, rgb(195, 238, 42) 100% );
+}
+.cat3{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #d34d80 100% );
+}
+.cat1,.cat2,.cat3{
+    
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(77, 159, 214) 100%;
+}
+
+#Contuct{
+    height: 300px;
+}
+#Contuct h6{
+    color: rgb(173, 30, 209);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
